@@ -39,8 +39,8 @@ class FormPage extends StatelessWidget {
           FButton(
             text: 'test',
             onPressed: () async {
-              var rs = await TkFile.pickAndUpload();
-              D(rs);
+              // var rs = await TkFile.pickAndUpload();
+              // D(rs);
             },
           ),
           // TkPicker(data: List.generate(10, (index) => TkPickerItem(index)),)
